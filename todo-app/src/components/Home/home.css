@@ -1,0 +1,18 @@
+.nav-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.nav-link.active {
+    background-color: #cd1e1e;
+    color: rgb(107, 186, 11);
+    /* Add any other desired styles for the active item */
+}
+.nav-menu li {
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
