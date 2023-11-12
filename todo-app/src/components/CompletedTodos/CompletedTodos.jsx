@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function CompletedTodos() {
+const CompletedTodos = ({ todoList }) => {
+  
   return (
-    <div>CompletedTodos</div>
-  )
-}
+    <>
+      {todoList.map((todo) => {
+        return <div key={todo.id}>{todo.taskName}</div>;
+      })}
+    </>
+  );
+};
 
-export default CompletedTodos
+export default CompletedTodos;

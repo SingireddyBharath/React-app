@@ -1,27 +1,29 @@
-.outer-container{
+.outer-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
 }
+
 .input-box {
     width: 400px;
-    height: 30px;
+    height: 40px;
     outline: none;
     font-size: 15px;
     padding: 5px;
     border-radius: 5px;
+    border: 0.5px solid black;
 }
 
-.add-btn {
-    margin: 15px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border: none;
-    background-color: rgb(126, 226, 26);
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 2em;
+.circle-button {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 135, 57) !important;
+    border-radius: 50% !important;
     color: white;
+    margin: 10px;
+    border: none !important;
 }

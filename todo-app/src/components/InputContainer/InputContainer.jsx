@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import { Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+
 import "./InputContainer.css";
 const InputContainer = (props) => {
   const [inputTask, setInputTask] = useState("");
@@ -20,9 +24,9 @@ const InputContainer = (props) => {
         onChange={(e) => setInputTask(e.target.value)}
         onKeyPress={handleKeyPress}
       />
-      <button className="add-btn" onClick={handleAddTodo}>
-        +
-      </button>
+      <Button className="circle-button" onClick={handleAddTodo}>
+        <FontAwesomeIcon icon={faPlus} />
+      </Button>
     </div>
   );
 };

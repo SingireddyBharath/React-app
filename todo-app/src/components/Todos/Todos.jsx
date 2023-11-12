@@ -1,6 +1,8 @@
+import "./Todos.css";
+
 import React from "react";
 
-const AllTodos = ({ todoList }) => {
+const Todos = ({ todoList }) => {
   return (
     <>
       {todoList.map((todo) => {
@@ -10,4 +12,4 @@ const AllTodos = ({ todoList }) => {
   );
 };
 
-export default AllTodos;
+export default Todos;
