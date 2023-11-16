@@ -1,0 +1,42 @@
+.todo-item {
+    display: flex !important;
+    align-items: center;
+    margin: 5px;
+    background-color: beige;
+    height: 45px;
+    width: 750px;
+    border-radius: 5px;
+}
+.task-name{
+    margin-left: 10px
+}
+.taskName-container {
+    width: 500px;
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+.button-container {
+    margin-left: auto;
+}
+
+.button-container button {
+    margin-right: 20px;
+}
+
+.mark-done,.mark-todo {
+    border: none;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    height: 35px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.mark-todo{
+    background-color: beige;
+}
+
+.del-todo {
+    border: none;
+}

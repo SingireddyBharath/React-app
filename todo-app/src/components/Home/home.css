@@ -1,9 +1,18 @@
 .tabs-container {
     width: 800px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .todo-nav {
-    width: 500px;
+    width: 700px;
+}
+
+.tab-title {
+    color: rgb(25, 25, 25);
+}
+
+.todo-nav .nav-link.active {
+    background-color: rgb(213, 213, 210) !important;
 }
